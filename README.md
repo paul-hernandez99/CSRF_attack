@@ -17,5 +17,6 @@ In this lab, the purpose of the attacker is to change the registered email of th
 ![](docs/home.jpg)
 ![](docs/db_pre.jpg)
 ![](docs/attacker_server.jpg)
+![](docs/source.jpg)
 ![](docs/db_post.jpg)
 ![](docs/result.jpg)
