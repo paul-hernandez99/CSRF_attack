@@ -9,4 +9,13 @@ This vulnerability consists on taking advantage of the session of the target-ser
 
 ![](docs/csrf.png)
 
-In this lab, the purpose of the attacker is to change the registered email of the trusted user in the target-server
+In this lab, the purpose of the attacker is to change the registered email of the trusted user in the target-server.
+## Process
+
+![](docs/starting_servers.jpg)
+![](docs/login.jpg)
+![](docs/home.jpg)
+![](docs/db_pre.jpg)
+![](docs/attacker_server.jpg)
+![](docs/db_post.jpg)
+![](docs/result.jpg)
