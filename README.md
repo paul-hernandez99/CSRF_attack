@@ -12,11 +12,33 @@ This vulnerability consists on taking advantage of the session of the target-ser
 In this lab, the purpose of the attacker is to change the registered email of the trusted user in the target-server.
 ## Process
 * Starting the both servers.
+
 ![](docs/starting_servers.jpg)
+
+* The trusted user signups in the target-server and creates a session.
+
 ![](docs/login.jpg)
+
+* As usual he is redirected to the home page.
+
 ![](docs/home.jpg)
+
+* Here is the user data storage in the db.
+
 ![](docs/db_pre.jpg)
+
+* After some time he receives an interesting email and he clicks in the link. And he is redirected to some beatiful web page and nothing special happends ;)
+
 ![](docs/attacker_server.jpg)
+
+* he is not aware of the hidden post request, using the web-browser's fetch api. The purpose of the post petition is to change the victim email.
+
 ![](docs/source.jpg)
+
+* Here is the prove that the attack has been successful!
+
 ![](docs/db_post.jpg)
+
+* As we can see in the target server console log the email used in the session has changed
+
 ![](docs/result.jpg)
