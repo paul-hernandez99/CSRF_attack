@@ -3,7 +3,6 @@ const morgan = require('morgan');
 const exphbs = require('express-handlebars');
 const path = require('path');
 const session = require('express-session');
-const csfr = require('csfr');
 
 //initializations
 const app = express();
