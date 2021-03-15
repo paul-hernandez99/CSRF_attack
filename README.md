@@ -35,7 +35,7 @@ This vulnerability consists on taking advantage of the session of the target-ser
 
 ![](docs/attacker_server.jpg)
 
-* **He is not aware of the hidden post request, using the web-browser's fetch api. The purpose of the post petition is to change the victim email.**
+* **He is not aware of the hidden post request, using the web-browser's fetch api. The purpose of the post petition is to change the victim's email.**
 
 ![](docs/source.jpg)
 
