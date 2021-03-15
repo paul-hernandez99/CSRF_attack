@@ -11,7 +11,7 @@ This vulnerability consists on taking advantage of the session of the target-ser
 
 In this lab, the purpose of the attacker is to change the registered email of the trusted user in the target-server.
 ## Process
-1.- ffd
+* Starting the both servers.
 ![](docs/starting_servers.jpg)
 ![](docs/login.jpg)
 ![](docs/home.jpg)
